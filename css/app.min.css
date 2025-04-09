@@ -1412,6 +1412,7 @@ h1.main-title,h2.main-title,h1.cat-title {
     width: 14px;
     padding: 0;
     margin: 0;
+    margin-right:5px;
     position: relative
 }
 
