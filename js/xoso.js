@@ -442,8 +442,8 @@ var xoso = {
         // Lấy số đặc biệt từ lần quay trước
         var specialNumber = null;
         if (this.variables.previousPrize6) {
-            var prevFirst = this.variables.previousPrize6.charAt(0) + 1;
-            var prevLast = this.variables.previousPrize6.charAt(2) + 1;
+            var prevFirst = (parseInt(this.variables.previousPrize6.charAt(0)) + 1).toString();
+            var prevLast = (parseInt(this.variables.previousPrize6.charAt(2)) + 1).toString();
             specialNumber = prevFirst + prevLast;
         }
 
